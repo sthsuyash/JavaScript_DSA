@@ -13,8 +13,8 @@ rangeOfNumbers(4, 4) should return [4].
 */
 
 function rangeOfNumbers(startNum, endNum) {
-    if (endNum < startNum) {
-        return [];
+    if (endNum <= startNum) {
+        return [startNum];
     }
     else {
         const arr = rangeOfNumbers(startNum, endNum - 1);

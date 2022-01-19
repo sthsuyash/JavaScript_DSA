@@ -59,6 +59,7 @@ function updateRecords(records, id, prop, value) {
     return records;
 }
 
+// test conditions
 console.log(updateRecords(recordCollection, 5439, 'artist', 'ABBA'), "\n\n");
 console.log(updateRecords(recordCollection, 5439, 'tracks', 'Take a Chance on Me'), "\n\n");
 console.log(updateRecords(recordCollection, 2548, 'artist', ""), "\n\n");
