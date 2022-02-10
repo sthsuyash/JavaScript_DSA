@@ -3,8 +3,8 @@ const user1 = {
     age: 20
 };
 
-const { namee, age } = user1;
-console.log(namee);
+const { names, age } = user1;
+console.log(names);
 console.log(age);
 
 //
