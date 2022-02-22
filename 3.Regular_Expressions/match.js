@@ -16,8 +16,8 @@
 
 */
 let extractStr = "Extract the word 'coding' from this string.";
-let codingRegex = /coding/; // Change this line
-let result = extractStr.match(codingRegex); // Change this line
+let codingRegex = /coding/; 
+let result = extractStr.match(codingRegex); 
 console.log(result);
 
 /*
@@ -26,6 +26,6 @@ You can have multiple flags on your regex like /searchitem/gi
 */
 
 let twinkleStar = "Twinkle, twinkle, little star";
-let starRegex = /twinkle/gi; // Change this line
-result = twinkleStar.match(starRegex); // Change this line
+let starRegex = /twinkle/gi;
+result = twinkleStar.match(starRegex);
 console.log(result);

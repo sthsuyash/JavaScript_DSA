@@ -40,8 +40,8 @@ console.log(matStr.match(bgRegex));
 // In order, the three match calls would return the values["cat"], ["bat"], and null.
 
 quoteSample = "The quick brown fox jumps over the lazy dog.";
-let alphabetRegex = /[a-z]/gi; // Change this line
-result = quoteSample.match(alphabetRegex); // Change this line
+let alphabetRegex = /[a-z]/gi;
+result = quoteSample.match(alphabetRegex);
 console.log(result);
 
 quoteSample = "Blueberry 3.141592653s are delicious.";

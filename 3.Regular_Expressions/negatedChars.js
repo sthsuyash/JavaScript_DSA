@@ -10,4 +10,10 @@
 let quoteSample = "3 blind mice.";
 let myRegex = /[^aeiou0-9]/gi;
 let result = quoteSample.match(myRegex);
+for (let i = 0; i < result.length; i++) {
+    if (result[i] == ' ') {
+        result[i] = "";
+    }
+}
+result = result.join('');
 console.log(result);
