@@ -1,0 +1,30 @@
+/*
+Match All Numbers
+You've learned shortcuts for common string patterns like alphanumerics. 
+Another common pattern is looking for just digits or numbers.
+
+The shortcut to look for digit characters is \d, with a lowercase d.
+This is equal to the character class [0-9], which looks for a single character of any number between zero and nine.
+*/
+
+let movieName = "2001: A Space Odyssey";
+let numRegex = /\d/g; // Change this line
+let result = movieName.match(numRegex).length;
+console.log(result);
+
+/*
+Match All Non-Numbers
+The last challenge showed how to search for digits using the shortcut \d with a lowercase d. You can also search for non-digits using a similar shortcut that uses an uppercase D instead.
+
+The shortcut to look for non-digit characters is \D. This is equal to the character class [^0-9], which looks for a single character that is not a number between zero and nine.
+
+Use the shorthand character class for non-digits \D to count how many non-digits are in movie titles.
+
+ 
+
+ */
+
+movieName = "2001: A Space Odyssey";
+let noNumRegex = /\D/g; // Change this line
+result = movieName.match(noNumRegex).length;
+console.log(result);
